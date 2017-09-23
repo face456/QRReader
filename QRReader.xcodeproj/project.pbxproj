@@ -54,14 +54,22 @@
 		8BB7874C1F76540E00AA484D /* QRReader */ = {
 			isa = PBXGroup;
 			children = (
+				8BB787601F766B4300AA484D /* Controller */,
 				8BB7874D1F76540E00AA484D /* AppDelegate.swift */,
-				8BB7874F1F76540E00AA484D /* ViewController.swift */,
 				8BB787511F76540E00AA484D /* Main.storyboard */,
 				8BB787541F76540E00AA484D /* Assets.xcassets */,
 				8BB787561F76540E00AA484D /* LaunchScreen.storyboard */,
 				8BB787591F76540E00AA484D /* Info.plist */,
 			);
 			path = QRReader;
+			sourceTree = "<group>";
+		};
+		8BB787601F766B4300AA484D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BB7874F1F76540E00AA484D /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
