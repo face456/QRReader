@@ -50,7 +50,6 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         view.layer.addSublayer(video)
         
         self.view.bringSubview(toFront: square)
-        
         session.startRunning()
     }
     
